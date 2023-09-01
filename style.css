@@ -1,1 +1,22 @@
+*{
+    line-height: 1.4;
+}
 
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    border: 1px black;
+    margin: 14px;
+    padding: 6px 10px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    font-size: 38px;
+} 
